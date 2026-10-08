@@ -1,0 +1,52 @@
+{
+  "config_signature": {
+    "alphas": [
+      0.001,
+      1e-06,
+      1e-09
+    ],
+    "frequency_GHz": 0.875,
+    "last_n": 400,
+    "noise_seed_base": 20260718,
+    "noise_sigmas_mx": [
+      0.0001,
+      0.001
+    ],
+    "oscillator": "SSO",
+    "periods": 10,
+    "raw_dir": "/data1/P_0/results/fig05_benchmarks/sso_1nm_freq_bifurcation_J1e11_start_f1p5GHz_warm30_record20_40ppc_2000ovf_ws3_gpu1_20260707/raw/sso_1nm_j1e11_f0p875GHz_0K_warm30_record20_40ppc_2000ovf",
+    "repetitions": 30,
+    "script_version": "20260718-v1",
+    "test_fraction": 0.3,
+    "z_index": 0
+  },
+  "generated_at": "2026-07-18T06:28:45.004469+00:00",
+  "predictions_npz": "protocol_comparison_30seeds/analysis_ws3/per_point/sso_1nm_j1e11_f0p875GHz_0K_warm30_record20_40ppc_2000ovf_predictions.npz",
+  "result_row_count": 363,
+  "results_csv": "protocol_comparison_30seeds/analysis_ws3/per_point/sso_1nm_j1e11_f0p875GHz_0K_warm30_record20_40ppc_2000ovf_results.csv",
+  "source_window": {
+    "NX": 128,
+    "NY": 64,
+    "NZ": 2,
+    "available_trajectory_ovf": 2000,
+    "component_used": "mx",
+    "condition": "sso_1nm_j1e11_f0p875GHz_0K_warm30_record20_40ppc_2000ovf",
+    "feature_cols": 8192,
+    "feature_rows": 400,
+    "first_cycle": 41,
+    "first_frame": 1,
+    "first_selected_file": "traj_cycle041_frame001of040.ovf",
+    "frames_per_cycle": 40,
+    "frequency_GHz": 0.875,
+    "host_label": "ws3",
+    "last_cycle": 50,
+    "last_frame": 40,
+    "last_selected_file": "traj_cycle050_frame040of040.ovf",
+    "oscillator": "SSO",
+    "raw_dir": "/data1/P_0/results/fig05_benchmarks/sso_1nm_freq_bifurcation_J1e11_start_f1p5GHz_warm30_record20_40ppc_2000ovf_ws3_gpu1_20260707/raw/sso_1nm_j1e11_f0p875GHz_0K_warm30_record20_40ppc_2000ovf",
+    "selected_cycle_count": 10,
+    "selected_trajectory_ovf": 400,
+    "valuedim": 3,
+    "z_index": 0
+  }
+}

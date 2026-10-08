@@ -1,0 +1,55 @@
+{
+  "generated_at_utc": "2026-08-14T00:17:59+00:00",
+  "status": "pass",
+  "readout": "strictly linear Ridge with intercept on the original pooled state variables",
+  "nonlinear_feature_expansion": false,
+  "training_only_standardization": true,
+  "alpha_selection": "validation MSE only",
+  "sealed_test_used_for_model_selection": false,
+  "split_half_open": {
+    "washout": [
+      0,
+      500
+    ],
+    "train": [
+      500,
+      2600
+    ],
+    "purge_1": [
+      2600,
+      2650
+    ],
+    "validation": [
+      2650,
+      3300
+    ],
+    "purge_2": [
+      3300,
+      3350
+    ],
+    "sealed_test": [
+      3350,
+      4000
+    ]
+  },
+  "forecast_horizon": {
+    "stored_output_samples": 10,
+    "MG_time_units": 10,
+    "internal_integration_dt": 0.2,
+    "equivalent_internal_integration_steps": 50
+  },
+  "R128_old_MSE": 0.0010337981475226816,
+  "R128_expected_MSE": 0.001033798147522637,
+  "R128_reproduction_absolute_difference": 4.466912950640278e-17,
+  "R128_new_MSE": 0.0009400075289784161,
+  "R256_MSE": 0.0006465311108484558,
+  "R128_old_to_R256_improvement_factor": 1.5989921137221184,
+  "invalid_degree2_R256_MSE_excluded": 0.00027082708717663794,
+  "software": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.8.0"
+  }
+}

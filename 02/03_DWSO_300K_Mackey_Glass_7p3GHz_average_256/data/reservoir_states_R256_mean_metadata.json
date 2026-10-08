@@ -1,0 +1,27 @@
+{
+  "analysis_version": "dwso_300k_f7p3_r256_state_average_v1",
+  "generated_at": "2026-08-13T23:49:53+00:00",
+  "subset_id": "R256_all",
+  "repeat_count": 256,
+  "drive_thermal_seed_range_inclusive": [
+    32345,
+    32600
+  ],
+  "reduction": "equal-weight mean of two audited R128 pointwise means; exact for 256 equal-size groups apart from float32 storage rounding",
+  "source_cache_paths": [
+    "/data1/P_0/results/fig05_benchmarks/dwso_300k_tau17_N4000_f7p3_addR128c_drive_thermal_seeds_lenovo_20260813/phase8_center/analysis/r256_state_average_denoising_20260814/reference/R128_all_state_mean.npy",
+    "/data1/P_0/results/fig05_benchmarks/dwso_300k_tau17_N4000_f7p3_addR128c_drive_thermal_seeds_lenovo_20260813/phase8_center/analysis/r256_state_average_denoising_20260814/cache/R128_new_state_mean.npy"
+  ],
+  "source_cache_sha256": [
+    "89ff84a635bbe66d3d0b3a07ecb15e05424f3cbbd3cbe9667c136dce2ac5f15c",
+    "88d69f7d6595dc690c206c2db47f56eafc989fd5ee3d007eaf873f91caf149b0"
+  ],
+  "shape": [
+    4000,
+    1024
+  ],
+  "dtype": "float32",
+  "cache_path": "/data1/P_0/results/fig05_benchmarks/dwso_300k_tau17_N4000_f7p3_addR128c_drive_thermal_seeds_lenovo_20260813/phase8_center/analysis/r256_state_average_denoising_20260814/cache/R256_all_state_mean.npy",
+  "cache_sha256": "f2a43028d32e8359bdbda34d39a9df81d2f3e1918e157d46c63eb5e1250a6a1c",
+  "RMS_difference_between_old_and_new_R128_means_mz": 0.007230284365491344
+}

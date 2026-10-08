@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-06",
+  "command_used": "python 02_DWSO_300K_NARMA10_7p3GHz_average_512/analyze_and_plot.py; existing locked validation retained for datasets 1 and 3",
+  "overall_status": "PASS",
+  "datasets": [
+    {
+      "dataset": "SSO 0 K sine-to-square, 0.875 GHz",
+      "test_MSE": 5.1379426294216446e-11,
+      "locked_test_MSE": 5.1379426294216446e-11,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "SSO 0 K sine-to-square, 0.880 GHz",
+      "test_MSE": 0.00045281708578916456,
+      "locked_test_MSE": 0.00045281708578916456,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "dataset": "DWSO 300 K NARMA10, 7.3 GHz, physical-state average of 512 thermal realizations",
+      "drive_thermal_seed_range_inclusive": [32345, 32856],
+      "locally_refitted_test_MSE": 0.003465632895325308,
+      "locked_linux_test_MSE": 0.0034656418745736477,
+      "locked_linux_test_NMSE": 0.22060580621777207,
+      "absolute_difference": 8.979248339660573e-09,
+      "note": "PASS within the declared cross-platform eigensolver/BLAS tolerance; the archived locked prediction CSV reproduces MSE 0.0034656418745736745.",
+      "status": "PASS"
+    },
+    {
+      "dataset": "DWSO 300 K Mackey-Glass, 7.3 GHz, average of 256 thermal realizations",
+      "sealed_test_MSE": 0.0006465311108484558,
+      "locked_test_MSE": 0.0006465311108484558,
+      "absolute_difference": 0.0,
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "repeat_count": 256,
+  "drive_thermal_seed_range_inclusive": [
+    32345,
+    32600
+  ],
+  "active_feature_columns": 1024,
+  "selected_alpha": 10.0,
+  "split_half_open": {
+    "washout": [
+      0,
+      500
+    ],
+    "train": [
+      500,
+      2600
+    ],
+    "purge_1": [
+      2600,
+      2650
+    ],
+    "validation": [
+      2650,
+      3300
+    ],
+    "purge_2": [
+      3300,
+      3350
+    ],
+    "sealed_test": [
+      3350,
+      4000
+    ]
+  },
+  "sealed_test_metrics": {
+    "MSE": 0.0006465311108484558,
+    "RMSE": 0.025426976046090417,
+    "NMSE": 0.009641072671099244,
+    "R2": 0.9903589273289007,
+    "PCC2": 0.9905452673756683
+  },
+  "locked_test_MSE": 0.0006465311108484558,
+  "absolute_MSE_difference": 0.0,
+  "plot_window": {
+    "split": "sealed_test",
+    "symbol_n_inclusive": [
+      3350,
+      3999
+    ],
+    "n_points": 650
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "generated_at_utc": "2026-09-06T06:27:59+00:00",
+  "dataset": "300 K DWSO 7.3 GHz NARMA10, physical-state average of 512 thermal realizations",
+  "drive_thermal_seed_range_inclusive": [
+    32345,
+    32856
+  ],
+  "repeat_count_R": 512,
+  "state_shape": [
+    4000,
+    1024
+  ],
+  "state_dtype": "float32",
+  "state_sha256": "513a97bda97869a8379082c6d5bf5d1acef025d36b4b23ebb717a682d6ee06a9",
+  "target_alignment": "state after symbol n predicts target_y_next = y[n+1]",
+  "feature_protocol": "layer-0 scalar mz; 8 phases/symbol; non-overlapping 8x8 spatial mean; 1024 nodes",
+  "physical_state_averaging": "elementwise equal-weight mean of 512 aligned state matrices before readout fitting",
+  "readout": "linear ridge regression in dual linear-Gram form; no nonlinear feature map",
+  "best_alpha": 0.03162277660168379,
+  "active_feature_columns": 1024,
+  "split_sizes": {
+    "train": 2369,
+    "validation": 780,
+    "test": 780
+  },
+  "test_metrics": {
+    "MSE": 0.003465632895325308,
+    "RMSE": 0.058869626254336865,
+    "NMSE": 0.2206052346427534,
+    "NRMSE": 0.46968631515379855,
+    "R2": 0.7793947653572466,
+    "PCC2": 0.7910954229822158
+  },
+  "locked_test_MSE": 0.0034656418745736477,
+  "published_prediction_CSV_test_MSE": 0.0034656418745736745,
+  "published_validation_grid_best_alpha": 0.0316227766016837,
+  "absolute_MSE_difference": 8.979248339660573e-09,
+  "declared_MSE_tolerance": {
+    "rtol": 1e-05,
+    "atol": 5e-09
+  },
+  "numerical_note": "The locked result was produced on Linux from the same archived float32 R=512 mean state. Eigensolver/BLAS implementations can shift the final numerical digits; the archived locked prediction CSV and validation grid are therefore checked independently."
+}

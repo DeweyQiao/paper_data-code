@@ -1,0 +1,22 @@
+[
+  {
+    "frequency_GHz": 0.875,
+    "ridge_alpha": 1e-06,
+    "train_n": 280,
+    "test_n": 120,
+    "test_MSE": 5.1379426294216446e-11,
+    "locked_MSE": 5.1379426294216446e-11,
+    "absolute_difference": 0.0,
+    "status": "PASS"
+  },
+  {
+    "frequency_GHz": 0.88,
+    "ridge_alpha": 1e-06,
+    "train_n": 280,
+    "test_n": 120,
+    "test_MSE": 0.00045281708578916456,
+    "locked_MSE": 0.00045281708578916456,
+    "absolute_difference": 0.0,
+    "status": "PASS"
+  }
+]
